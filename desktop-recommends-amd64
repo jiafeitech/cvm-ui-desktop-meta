@@ -79,6 +79,8 @@ orca
 packagekit
 pcmciautils
 plymouth-theme-cvm-ui-desktop
+plymouth-theme-cvm-ui-desktop-logo
+plymouth-theme-cvm-ui-desktop-bgrt
 policykit-desktop-privileges
 printer-driver-brlaser
 printer-driver-c2esp

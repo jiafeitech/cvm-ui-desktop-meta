@@ -11,7 +11,7 @@ nano
 ntfs-3g
 openssh-client
 plymouth
-plymouth-theme-ubuntu-text
+plymouth-theme-cvm-ui-desktop-text
 tcpdump
 telnet
 ufw
