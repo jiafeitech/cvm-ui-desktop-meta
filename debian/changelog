@@ -1,0 +1,6 @@
+cvm-ui-desktop-meta (1.481) jammy; urgency=medium
+
+- Refreshed dependencies
+- Removed ltrace from standard [amd64 arm64 armhf ppc64el s390x]
+
+-- Podter Mon, 02 Jan 2022 12:32:03 +0000

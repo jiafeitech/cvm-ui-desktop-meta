@@ -1,0 +1,47 @@
+Source: cvm-ui-desktop-meta
+Section: metapackages
+Priority: optional
+Maintainer: jiafeitech
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13), germinate (>= 1.18)
+Rules-Requires-Root: no
+
+Package: cvm-ui-desktop-minimal
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: Minimal core of Cvm UI Desktop
+ This package depends on all of the packages in the Cvm UI Desktop minimal system,
+ that is a functional command-line system with the following capabilities:
+ .
+  - Boot
+  - Detect hardware
+  - Connect to a network
+  - Install packages
+  - Perform basic diagnostics
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: cvm-ui-desktop-standard
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: The Cvm UI Desktop standard system
+ This package depends on all of the packages in the Cvm UI Desktop standard system.
+ This set of packages provides a comfortable command-line Unix-like
+ environment.
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: cvm-ui-desktop-desktop
+Architecture: amd64
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Provides: packagekit-installer
+Description: The UbuCvm UI Desktopntu desktop system
+ This package depends on all of the packages in the Cvm UI Desktop desktop
+ system.
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
